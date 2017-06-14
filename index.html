@@ -1,36 +1,383 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>RachelConner.com</title>
-<link href="tools/style.css" rel="stylesheet" type="text/css" media="screen" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<script type="text/javascript" src="tools/jquery.min.js"></script> 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script> 
-<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto+Slab:700' rel='stylesheet' type='text/css'>
-<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="Rachel Conner">
+<title>Rachel Conner</title>
 
+<!-- Bootstrap core CSS -->
+<link href="public/app/css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="public/app/css/main.css" rel="stylesheet">
+<link href="public/app/css/font-awesome.min.css" rel="stylesheet">
+<link href="public/app/css/animate-custom.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
-<body>
-<div class="wrapper">
-	<div class="left-section"><img src="images/watch.png" /></div>
-	<div class="right-section">
-		<h1 id="logo">Rachel Conner.com</h1>
-		<div class="seprator"></div>
-		<div class="main-content">
-			<h2>My site is currently under construction.</h2>
-			<p>If you need to contact me, please use the information below. Thanks!</p>
-		</div>
-		<ul class="social">
-			<li id="linkedin"><a href="https://www.linkedin.com/in/rachel-conner-34540041/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-		</ul>
-		
-		
-	</div>
-	<div class="watch-section"><img src="images/watch.png" /></div>
+
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+<div id="navbar-main">
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand smoothScroll" href="#headerwrap">RachelConner.com</a> </div>
+      <div class="navbar-collapse collapse" id="bs-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home" class="smoothScroll">Home</a></li>
+          <li> <a href="#about" class="smoothScroll"> About Me</a></li>
+          <li> <a href="#services" class="smoothScroll"> Skills</a></li>
+          <li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
+<!-- ==== HEADERWRAP ==== -->
+<div id="headerwrap" name="home">
+  <header class="clearfix">
+    <h1>Rachel Conner</h1>
+    <p>Designer &amp; Developer</p>
+    <a href="#portfolio" class="smoothScroll btn btn-lg">See My Work</a> </header>
+</div>
+<!-- /headerwrap --> 
 
+<!-- ==== ABOUT ==== -->
+<div id="about" name="about">
+  <div class="container">
+    <div class="row white">
+      <div class="col-md-6"> <img class="img-responsive" src="public/app/img/computerFull.png" align=""> </div>
+      <div class="col-md-6">
+        <h3>About Me</h3>
+        <p>I started as a freelance designer in college, majoring in Digital Media at Ohio University. I was an aspiring animator that loved learning everything I could. But in my senior year, I interned for Mills James Productions in Columbus, Ohio and I found a passion for web design.
+          Then I graduated...and went back to school. I took classes at Columbus State to learn about web development and design. Now, I'm a Front End Developer for Hondros Learning, working freelance on the side.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==== SERVICES ==== -->
+<div id="services" name="services">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">What I Can Do</h2>
+      <hr>
+      <div class="col-lg-8 col-lg-offset-2">
+        <p class="large">I never shy away from a challenge and learn quickly. Here's a list of what I can do.</p>
+      </div>
+      <div class="col-lg-3 callout"> <i class="fa fa-desktop fa-3x"></i>
+        <h3>Responsive Design</h3>
+      </div>
+      <div class="col-lg-3 callout"> <i class="fa fa-gears fa-3x"></i>
+        <h3>Web Development</h3>
+      </div>
+      <div class="col-lg-3 callout"> <i class="fa fa-paint-brush fa-3x"></i>
+        <h3>Graphic Design</h3>
+      </div>
+      <div class="col-lg-3 callout"> <i class="fa fa-shopping-cart  fa-3x"></i>
+        <h3>eCommerce</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==== PORTFOLIO ==== -->
+<div id="portfolio" name="portfolio">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">My Portfolio</h2>
+      <hr>
+      <div class="col-lg-8 col-lg-offset-2 centered">
+        <p class="large">I've worked on many projects over the years.<br>Here are a few concepts and projects that I'm especially proud of.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row"> 
+        
+        <!-- PORTFOLIO IMAGE 1 -->
+        <div class="col-md-4 ">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="public/app/img/portfolio/project1.jpg" alt="">
+              <figcaption>
+                <h5>HONDROS LEARNING</h5>
+                <a data-toggle="modal" href="#modalProject1" class="btn btn-default">More Details</a> </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modalProject1" tabindex="-1" role="dialog" aria-labelledby="modalProject1" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Hondros Learning | eCommerce Portal</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="public/app/img/portfolio/project1.jpg" alt=""></p>
+                <p>Working for Hondros, I was tasked with redesigning their eCommerce / eLearning websites. Hondros Learning teams up with resellers to sell Real Estate, Appraisal, Mortgage and Insurance courses around the country. When they pair with a school, a "portal" is created for students to buy from directly. My goal was to update the look of all these portals.</p>
+                <p>Each portal uses the same base code and dynamically pulls in styling, products, and account information based on the domain. The site utilizes AngularJS, Bootstrap, HTML5 and runs on a nodejs server. Our development team at Hondros continues to work on this site to make it faster and powerful, while I strive to make the user experience the best it can be.</p>
+                <p><b><a target="_blank" href="http://manfred.fastclass.com">Visit A Portal</a></b></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- PORTFOLIO 2 -->
+        <div class="col-md-4">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="public/app/img/portfolio/project2.jpg" alt="">
+              <figcaption>
+                <h5>CSS GRAPHIC</h5>
+                <a data-toggle="modal" href="#modalProject2" class="btn btn-default">More Details</a> </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modalProject2" tabindex="-1" role="dialog" aria-labelledby="modalProject2" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Raise the Bar | CSS Graphic</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="public/app/img/portfolio/project2.jpg" alt=""></p>
+                <p>While working for Hondros, my boss challenged me to make a landing page site in less than a week as a learning opportunity, which I did in my free time. That was the first time I'd ever made anything as a professional and I didn't make it easy on myself. I wanted a large typographical piece to be the highlight of the page, and I did it purely with CSS and HTML. All that survives today is the graphic, but it was what I liked best about the project anyway. The best [and hardest part] of the project was making it responsive. But when it was done, it looked great no matter what you viewed it with.</p>
+                <!--<p><b><a target="_blank" href="#">Visit Site</a></b></p>-->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- PORTFOLIO IMAGE 3 -->
+        <div class="col-md-4">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="public/app/img/portfolio/project3.jpg" alt="">
+              <figcaption>
+                <h5>THE CLUB</h5>
+                <a data-toggle="modal" href="#modalProject3" class="btn btn-default">More Details</a> </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modalProject3" tabindex="-1" role="dialog" aria-labelledby="modalProject3" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">The Club | The Marion Fitness Club</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="public/app/img/portfolio/project3.jpg" alt=""></p>
+                <p>Working with a coworker, I designed a site for a fitness club owner. He wanted an online application that would allow his staff to create custom meal plans for clients.</p>
+                <!--<p><b><a target="_blank" href="http://mfc.kyngster.com/">Visit Site</a></b></p>-->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- PORTFOLIO IMAGE 4 -->
+      <div class="row">
+        <div class="col-md-4 ">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="public/app/img/portfolio/project4.jpg" alt="">
+              <figcaption>
+                <h5>JP FORSHEY</h5>
+                <a data-toggle="modal" href="#modalProject4" class="btn btn-default">More Details</a> </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modalProject4" tabindex="-1" role="dialog" aria-labelledby="modalProject4" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">J. Paulette Forshey | Author Website</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="public/app/img/portfolio/project4.jpg" alt=""></p>
+                <p>After making book covers for author J. Paulette Forshey, I created a website concept to update her current site.</p>
+                <!--<p><b><a target="_blank" href="http://rachelcconner.com/paulette">Visit Site</a></b></p>-->
+                <p>She later commissioned me to help redesign her site using Wordpress. Wordpress's user-friendly content management system makes it so, after the initial design, clients can maintain sites themselves. Cutting her website costs drastically, I setup a free Wordpress blog using the styles I'd created in this mockup.</p>
+                <p><b><a target="_blank" href="http://jpauletteforshey.com">Visit Her New Site!</a></b></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- PORTFOLIO IMAGE 5 -->
+        <div class="col-md-4">
+          <div class="grid mask">
+            <figure> <img class="img-responsive" src="public/app/img/portfolio/project5.jpg" alt="">
+              <figcaption>
+                <h5>COFW</h5>
+                <a data-toggle="modal" href="#modalProject5" class="btn btn-default">More Details</a> </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modalProject5" tabindex="-1" role="dialog" aria-labelledby="modalProject5" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Central Ohio Fiction Writers | Official Website</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="public/app/img/portfolio/project5.jpg" alt=""></p>
+                <p>I was hired to create a new website for Central Ohio Fiction Writers after their old site no longer met their needs. I made them a light-weight, fast site using AngularJS, Bootstrap and angular routes.</p>
+                <p><b><a target="_blank" href="http://cofwevents.org">Visit Site</a></b></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- PORTFOLIO IMAGE 6 -->
+        <!--<div class="col-md-4">-->
+          <!--<div class="grid mask">-->
+            <!--<figure> <img class="img-responsive" src="public/app/img/portfolio/project6.jpg" alt="">-->
+              <!--<figcaption>-->
+                <!--<h5>Hondros Education Group</h5>-->
+                <!--<a data-toggle="modal" href="#modalProject6" class="btn btn-default">More Details</a> </figcaption>-->
+            <!--</figure>-->
+          <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="modal fade" id="modalProject6" tabindex="-1" role="dialog" aria-labelledby="modalProject6" aria-hidden="true">-->
+          <!--<div class="modal-dialog">-->
+            <!--<div class="modal-content">-->
+              <!--<div class="modal-header">-->
+                <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                <!--<h4 class="modal-title">Hondros Education Group | HTML5, CSS3, AngularJS Redesign</h4>-->
+              <!--</div>-->
+              <!--<div class="modal-body">-->
+                <!--<p><img class="img-responsive" src="public/app/img/portfolio/project6.jpg" alt=""></p>-->
+                <!--<p>Hondros Education Group is a site created using Wordpress. Sites made with Wordpress are great for larger sites maintained by many people with many different skill sets, however, Wordpress sites are vulnerable to attack and can easily be hacked. Since this site was a single landing page, and had very little content at all, I was tasked with updating it using HTML, CSS, and AngularJS. </p>-->
+                <!--<p><b><a target="_blank" href="http://hondroseducationgroup.com">Visit the Site</a></b></p>-->
+              <!--</div>-->
+              <!--<div class="modal-footer">-->
+                <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+            <!-- PORTFOLIO IMAGE 7 -->
+      <!--<div class="row">-->
+        <!--<div class="col-md-4 ">-->
+          <!--<div class="grid mask">-->
+            <!--<figure> <img class="img-responsive" src="http://placehold.it/800x600" alt="">-->
+              <!--<figcaption>-->
+                <!--&lt;!&ndash;<h5>MOCKUP</h5>&ndash;&gt;-->
+                <!--&lt;!&ndash;<a data-toggle="modal" href="#" class="btn btn-default">More Details</a> &ndash;&gt;-->
+              <!--</figcaption>-->
+            <!--</figure>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!---->
+        <!--&lt;!&ndash; PORTFOLIO IMAGE 8 &ndash;&gt;-->
+        <!--<div class="col-md-4">-->
+          <!--<div class="grid mask">-->
+            <!--<figure> <img class="img-responsive" src="http://placehold.it/800x600" alt="">-->
+              <!--<figcaption>-->
+                <!--&lt;!&ndash;<h5>WEB ICONS</h5>&ndash;&gt;-->
+                <!--&lt;!&ndash;<a data-toggle="modal" href="#" class="btn btn-default">More Details</a> &ndash;&gt;-->
+              <!--</figcaption>-->
+            <!--</figure>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!---->
+        <!--&lt;!&ndash; PORTFOLIO IMAGE 9 &ndash;&gt;-->
+        <!--<div class="col-md-4">-->
+          <!--<div class="grid mask">-->
+            <!--<figure> <img class="img-responsive" src="http://placehold.it/800x600" alt="">-->
+              <!--<figcaption>-->
+                <!--&lt;!&ndash;<h5>UX / UI</h5>&ndash;&gt;-->
+                <!--&lt;!&ndash;<a data-toggle="modal" href="#" class="btn btn-default">More Details</a> &ndash;&gt;-->
+              <!--</figcaption>-->
+            <!--</figure>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div>
+
+<!-- ==== TEAM MEMBERS ==== -->
+<div id="team" name="team">
+  <div class="container">
+    <div class="row centered">
+      <h2 class="centered">Thanks for dropping by!</h2>
+      <hr>
+      <div class="col-lg-6 col-lg-offset-3 centered"> <img class="img img-circle" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/083/05e/1b9b7dd.jpg" height="120px" width="120px" alt="">
+        <p>Feel free to contact me through links below.</p>
+        <a target="_blank" href="mailto:rconner614@gmail.com"><i class="fa fa-envelope"></i></a> <a target="_blank" href="https://www.linkedin.com/in/rachel-conner-34540041"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footerwrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8"> <span class="copyright">Copyright &copy; 2016 Rachel Conner</div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <!--<li><a href="#"><i class="fa fa-twitter"></i></a> </li>-->
+          <!--<li><a href="#"><i class="fa fa-facebook"></i></a> </li>-->
+          <li><a target="_blank" href="mailto:rconner614@gmail.com"><i class="fa fa-envelope"></i></a> </li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/rachel-conner-34540041"><i class="fa fa-linkedin"></i></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="public/app/js/jquery.min.js"></script>
+<script type="text/javascript" src="public/app/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="public/app/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="public/app/js/retina.js"></script>
+<script type="text/javascript" src="public/app/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="public/app/js/smoothscroll.js"></script>
+<script type="text/javascript" src="public/app/js/jquery-func.js"></script>
 </body>
 </html>

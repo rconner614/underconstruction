@@ -1,0 +1,23 @@
+{
+  "name": "rachelconner.com",
+  "version": "0.0.0",
+  "authors": [
+    "rconner614 <rconner614@yahoo.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests",
+    ".idea"
+  ],
+  "dependencies": {
+    "angular": "1.6.4",
+    "jquery": "3.2.1",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0"
+  }
+}
